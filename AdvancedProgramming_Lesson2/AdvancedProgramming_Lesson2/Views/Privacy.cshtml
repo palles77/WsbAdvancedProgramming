@@ -1,0 +1,15 @@
+﻿@page
+@using Microsoft.Extensions.Localization
+@using Microsoft.AspNetCore.Mvc.Localization
+@model PrivacyModel
+
+@inject IStringLocalizer<Program> Localizer
+
+@{
+    ViewData["Title"] = Localizer["Privacy Policy"];
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    @Localizer["Privacy Policy Content"]
+</p>
