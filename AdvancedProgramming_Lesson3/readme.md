@@ -16,7 +16,9 @@ zamiast
 b) po uruchomieniu przykładu w pliku site.js zwrócić uwagę, aby adres uri u góry pliku odpowiadał portowi, na którym jest hostowany serwis.
 
 c)Jeżeli nie umiemy zobaczyć dlaczego coś nie działa użyć do tego programu Postman wysyłając żądanie na wskazany adres URI i zobaczyć co wypisze w odpowiedzi serwer.
+
 d) Warto użyć swagger tak jak to pokazano na filmie youtube. On może służyć do testowania API https://localhost:44354/swagger/
+
 
 2. Do zrobienia:
 
