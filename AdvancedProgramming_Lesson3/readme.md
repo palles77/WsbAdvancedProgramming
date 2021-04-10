@@ -1,4 +1,5 @@
 1. Rzeczy na który należy zwracać uwagę:
+
 a) gdy przekazujemy argumenty typu integer w json pamiętać, aby nie umieszczać ich w cudzysłowiach, czyli np
 
 ```
