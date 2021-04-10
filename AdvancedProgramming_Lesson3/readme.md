@@ -21,7 +21,8 @@ d) Warto użyć swagger tak jak to pokazano na filmie youtube. On może służy�
 2. Do zrobienia:
 
 a) 
-![Przykład zadania](https://github.com/palles77/WsbAdvancedProgramming/tree/main/AdvancedProgramming_Lesson3/Images/ImieNazwisko.png)
+
+![Przykład zadania](https://github.com/palles77/WsbAdvancedProgramming/blob/main/AdvancedProgramming_Lesson3/Images/ImieNazwisko.png?raw=true)
 
 Zrobić formatkę osobną stronę osoba.html oraz osoba.js, umieścić w katalogu wwwrooot. Za przykład użyć index.html i site.js. Dodać odpowiedni kontroler api. Stronka powinna wczytywać imię i nazwisko w osobnej głównej formatce i umożliwia dodawanie nowych osób, edycji ich imion i nazwisk zgodnie z przykładem podanym na laboratorium.
 
