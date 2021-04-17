@@ -24,8 +24,8 @@ namespace AdvancedProgramming_Lesson2
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<MvcMovieContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("MvcMovieContext")));
+            services.AddDbContext<MvcContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("MvcContext")));
 
             services.AddLocalization(options =>
             {

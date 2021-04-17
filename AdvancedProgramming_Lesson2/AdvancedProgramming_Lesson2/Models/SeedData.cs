@@ -10,8 +10,8 @@ namespace AdvancedProgramming_Lesson2.Models
     {
         public static void Initialize(IServiceProvider serviceProvider)
         {
-            using var context = new MvcMovieContext(
-                serviceProvider.GetRequiredService<DbContextOptions<MvcMovieContext>>());
+            using var context = new MvcContext(
+                serviceProvider.GetRequiredService<DbContextOptions<MvcContext>>());
             // Look for any movies.
             if (context.Movie.Any())
             {

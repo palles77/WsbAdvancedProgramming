@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AdvancedProgramming_Lesson2.Data
 {
-    public class MvcMovieContext : DbContext
+    public class MvcContext : DbContext
     {
-        public MvcMovieContext(DbContextOptions<MvcMovieContext> options)
+        public MvcContext(DbContextOptions<MvcContext> options)
         : base(options)
         {
         }

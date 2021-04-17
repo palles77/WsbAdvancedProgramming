@@ -12,9 +12,9 @@ namespace AdvancedProgramming_Lesson2
 {
     public class MoviesController : Controller
     {
-        private readonly MvcMovieContext _context;
+        private readonly MvcContext _context;
 
-        public MoviesController(MvcMovieContext context)
+        public MoviesController(MvcContext context)
         {
             _context = context;
         }
