@@ -8,5 +8,7 @@ Update-Database
 
 ```
 
+To add new resources modify file SharedResource.resx and corresponding SharedResource files responsible for separate languages.
+
 # Last Updated
 2021/04/17

@@ -1,8 +1,15 @@
-﻿@{
-    ViewData["Title"] = "Strona główna";
-}
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using System.Globalization
+@using Microsoft.AspNetCore.Localization;
+
+@inject IHtmlLocalizer<SharedResource> SharedLocalizer
+
+@* ViewLocalizer path is Resources.Pages.Index *@
+@inject IViewLocalizer ViewLocalizer
+
+@{ ViewData["Title"] = SharedLocalizer["Home"]; }
 
 <div class="text-center">
-    <h1 class="display-4">Witajcie</h1>
-    <p>Przeczytaj na temat <a href="https://docs.microsoft.com/aspnet/core">tworzenia aplikacji Web z użyciem ASP.NET Core</a>.</p>
+    <h1 class="display-4">@ViewData["Title"]</h1>
+    <p>@SharedLocalizer["Learn Start"] <a href="https://docs.microsoft.com/aspnet/core">@SharedLocalizer["Learn End"]</a>.</p>
 </div>

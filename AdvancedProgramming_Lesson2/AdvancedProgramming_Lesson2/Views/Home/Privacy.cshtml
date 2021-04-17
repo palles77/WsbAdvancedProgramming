@@ -1,6 +1,14 @@
-﻿@{
-    ViewData["Title"] = "Polityka Prywatności";
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using System.Globalization
+@using Microsoft.AspNetCore.Localization;
+
+@inject IHtmlLocalizer<SharedResource> SharedLocalizer
+
+@{
+    ViewData["Title"] = SharedLocalizer["Privacy Policy"];
 }
 <h1>@ViewData["Title"]</h1>
 
-<p>Użyj tej strony aby wyświetlić szczegóły polityki prywatności.</p>
+<p>
+    @SharedLocalizer["Privacy Policy Content"]
+</p>

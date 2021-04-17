@@ -1,6 +1,11 @@
-﻿
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@using System.Globalization
+@using Microsoft.AspNetCore.Localization;
+
+@inject IHtmlLocalizer<SharedResource> SharedLocalizer
+
 @{
-    ViewData["Title"] = "O mnie";
+    ViewData["Title"] = SharedLocalizer["About"];
 }
 
 <h1>Mam na imię Jan Kowalski</h1>
