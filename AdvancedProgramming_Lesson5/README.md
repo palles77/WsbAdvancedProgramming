@@ -13,3 +13,5 @@ W ramach zadania proszę o stworzenie dwóch wpisów w blogu i wysłanie w mejlu
 Proszę aby wpisy w blogu miały jakąś konkretną treść (np hobby, książki itp)
 
 Oceniana będzie inwencja i zmysł graficzny.
+
+Przykład pracy ocenionej na 5 jest w katalogu.
