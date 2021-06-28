@@ -15,6 +15,7 @@ W tym laboratorium poruszane są następujące zagadnienia:
 
 1. Pracę można wykonać w grupie
 2. Aby dodać zapis do bazy danych należy obsłużyć metodę SendMessage() w klasie ChatHub w pliku ChatHub.cs. 
+
 a) dodać klasę ChatMessage z dwoma polami User, Message i odpowiednio skonfigurować plik config.json
 ```
   "AllowedHosts": "*",
