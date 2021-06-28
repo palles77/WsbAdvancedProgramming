@@ -11,6 +11,39 @@ W tym laboratorium poruszane są następujące zagadnienia:
 2. Zapisane komunikaty w tabeli Messages wyświetlać na osobnej zakładce 'History'. Zakładka ta ma wyświetlać tylko komunikaty wysłane przez zalogowanego użytkownika.
 3. Dodać zakładkę 'Users', która będzie wyświetlać listę zarejestrowanych użytkowników. Zakładka ta ma być widoczna tylko dla użytkownika 'admin@email.com'.
 
+# Wskazówki
+
+1. Pracę można wykonać w grupie
+2. Aby dodać zapis do bazy danych należy obsłużyć metodę SendMessage() w klasie ChatHub w pliku ChatHub.cs. 
+a) dodać klasę ChatMessage z dwoma polami User, Message i odpowiednio skonfigurować plik config.json
+```
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "MvcContext": "Server=(localdb)\\mssqllocaldb;Database=MvcContext;Trusted_Connection=True;MultipleActiveResultSets=true"
+  }
+```
+b) Dodać wstrzykiwanie zaleźności tak jak to miało w kontrolerze MoviesControler w laboratorium 2:
+
+Przykład wstrzykiwania zależności:
+```
+private readonly MvcContext _context;
+
+public ChatHub(MvcContext context)
+{
+    ChatMessage message = new ChatMessage(
+    _context = context;
+}
+
+public async Task SendMessage(string user, string message)
+{
+    var chatMessage = new ChatMessage(user, message);
+	_context.Add(chatMessage);
+    await _context.SaveChangesAsync();
+    await Clients.All.SendAsync("ReceiveMessage", user, message);
+}
+
+```
+
 # Literatura pomocnicza
 
 1. https://docs.microsoft.com/pl-pl/aspnet/core/tutorials/signalr?view=aspnetcore-5.0&tabs=visual-studio
@@ -18,4 +51,4 @@ W tym laboratorium poruszane są następujące zagadnienia:
 3. https://docs.microsoft.com/pl-pl/aspnet/core/data/ef-rp/intro?view=aspnetcore-5.0&tabs=visual-studio
 
 # Ostatnia zmiana
-14/05/2021
+28/06/2021
