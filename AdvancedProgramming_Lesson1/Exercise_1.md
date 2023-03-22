@@ -240,11 +240,6 @@ Typy spotykane w domu:
 - Czas trwania otwarcia (w godzinach) - zmienna `ciągła`
 - Liczba osób odwiedzających bibliotekę - zmienna `ciągła`
 
-2. Elementy spotykane w kuchni: garnki, kubki, 
-3. Elementuy spotykane w lodówce: nabiał, napoje, mięsa, warzywa, owoce.
-4. Elementy spotykane w ogórdku: narzędzia, drzewa, warzywa, środki ochrony roślin, meble ogrodowe.
-5. Elementy spotykane w bibliotece: gatunki literackie, autorzy, książki autorów, karty wpożyczeń, godziny otwarcia.
-
 -------------------------------------
 
 ## Ocenianie
