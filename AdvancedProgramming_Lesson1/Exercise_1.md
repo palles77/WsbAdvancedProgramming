@@ -164,45 +164,6 @@ Typy spotykane w domu:
 
 ----------------------------
 
-## Lista właściwości elementów ogrodowych i ich typy danych
-
-1. Narzędzia:
-- Typ narzędzia (np. grabie, nożyce ogrodnicze) - zmienna `jakościowa nominalna`
-- Materiał wykonania - zmienna `jakościowa nominalna`
-- Waga (kg) - zmienna `ciągła`
-- Długość (cm) - zmienna `ciągła`
-- Cena (PLN) - zmienna `ciągła`
-
-2. Drzewa:
-- Wysokość (m) - zmienna `ciągła`
-- Rodzaj (np. drzewo owocowe, iglaste) - zmienna `jakościowa nominalna`
-- Data posadzenia - zmienna `jakościowa porządkowa`
-- Średnica pnia (cm) - zmienna `ciągła`
-- Kolor liści - zmienna `jakościowa nominalna`
-
-3. Warzywa:
-- Typ warzywa (np. pomidor, ogórek) - zmienna `jakościowa nominalna`
-- Data siewu - zmienna `jakościowa porządkowa`
-- Data zbioru - zmienna `jakościowa porządkowa`
-- Waga (g) - zmienna `ciągła`
-- Cena (PLN) - zmienna `ciągła`
-
-4. Środki ochrony roślin:
-- Rodzaj środka (np. nawóz, środek przeciw chwastom) - zmienna `jakościowa nominalna`
-- Producent - zmienna `jakościowa nominalna`
-- Cena (PLN) - zmienna `ciągła`
-- Data ważności - zmienna `jakościowa porządkowa`
-- Pojemność (l) - zmienna `ciągła`
-
-5. Meble ogrodowe:
-- Materiał wykonania - zmienna `jakościowa nominalna`
-- Waga (kg) - zmienna `ciągła`
-- Kolor - zmienna `jakościowa nominalna`
-- Rodzaj mebla (np. ławka, stół) - zmienna `jakościowa nominalna`
-- Cena (PLN) - zmienna `ciągła`
-
-----------------------------
-
 ## Lista właściwości elementów spotykanych w bibliotece i ich typy danych
 
 1. Gatunki literackie:
