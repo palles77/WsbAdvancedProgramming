@@ -71,16 +71,16 @@ Dla właściwości takich jak: typ, marka, model zastosować pole opcji (combo b
 
 3. Wybrać trzy dodatkowe cechy dla osoby spośród wskazanej listy i dodać je do właściwości osoby z zadania:
 
-1. Age (wiek)
-2. Address (adres)
-3. Email (adres e-mail)
-4. Phone (numer telefonu)
-5. Occupation (zawód)
-6. Income (dochód)
-7. Education (wykształcenie)
-8. Marital status (stan cywilny)
-9. Nationality (narodowość)
-10. Gender (płeć)
+* Age (wiek)
+* Address (adres)
+* Email (adres e-mail)
+* Phone (numer telefonu)
+* Occupation (zawód)
+* Income (dochód)
+* Education (wykształcenie)
+* Marital status (stan cywilny)
+* Nationality (narodowość)
+* Gender (płeć)
 
 -------------------------------------------------
 
