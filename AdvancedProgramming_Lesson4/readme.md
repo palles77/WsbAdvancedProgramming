@@ -7,14 +7,39 @@ W tym laboratorium poruszane są następujące zagadnienia:
 
 # Zadania do wykonania
 
+## Ocena dst
+
 1. Dodać zapisywanie komunikatów wysyłanych do serwera do bazy danych. W tym celu utworzyć tabelkę 'Messages' i dodać ją jako część migracji bazy danych w górę (patrz laboratorium 2).
 2. Zapisane komunikaty w tabeli Messages wyświetlać na osobnej zakładce 'History'. Zakładka ta ma wyświetlać tylko komunikaty wysłane przez zalogowanego użytkownika.
 3. Dodać zakładkę 'Users', która będzie wyświetlać listę zarejestrowanych użytkowników. Zakładka ta ma być widoczna tylko dla użytkownika 'admin@email.com'.
 
+## Ocena dst plus
+
+1. Poprawić okienko tekstowe do wysyłania tekstu, aby móc wpisać więcej wierszy.
+2. Dodać informację do kogo wysłaliśmy wiadomość w tabelce o nazwie "Wysłane wiadomości" poniżej miejsca na wysyłanie wiadomości.
+
+## Ocena db
+
+1. Dodać informację, od kogo dostaliśmy wiadomość poniżej "Wysłanych wiadomości". Odebrane wiadomości powinny być renderowane w osobnej tabelce o nazwie "Odebrane wiadomości".
+2. Rozszerzyć informację o wiadomości o stempel czasowy. Dodać wyświetlanie stempla czasowego.
+
+## Ocena db plus
+
+1. Dodać możliwość usuwania wysłanej wiadomości.
+2. Dodać możwliwość edycji wysłanej wiadomości.
+
+## Ocena bdb
+
+1. Dodać możliwość potwierdzenia odebrania wiadomości.
+2. Dodać możliwość poinformowania o odebraniu wiadomości.
+3. Dodać przycisk odświeżania list wysłanych i odebranych wiadomości.
+
 # Wskazówki
 
-1. Pracę można wykonać w grupie
-2. Aby dodać zapis do bazy danych należy obsłużyć metodę SendMessage() w klasie ChatHub w pliku ChatHub.cs. 
+1. Zadanie wykonać indywidualnie.
+2. Należy wykonać 'Update-Database' na bazie
+3. Po zarejestrowaniu użytkownika kliknąć link 'Potwierdzam rejestrację'
+4. Aby dodać zapis do bazy danych należy obsłużyć metodę SendMessage() w klasie ChatHub w pliku ChatHub.cs. 
 
 a) dodać klasę ChatMessage z dwoma polami User, Message i odpowiednio skonfigurować plik config.json
 ```
@@ -52,4 +77,5 @@ public async Task SendMessage(string user, string message)
 3. https://docs.microsoft.com/pl-pl/aspnet/core/data/ef-rp/intro?view=aspnetcore-5.0&tabs=visual-studio
 
 # Ostatnia zmiana
-28/06/2021
+19/04/2023
+
