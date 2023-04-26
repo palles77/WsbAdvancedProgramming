@@ -26,7 +26,7 @@ W tym laboratorium poruszane są następujące zagadnienia:
 ## Ocena db plus
 
 1. Dodać możliwość usuwania wysłanej wiadomości.
-2. Dodać możwliwość edycji wysłanej wiadomości.
+2. Dodać możliwość edycji wysłanej wiadomości.
 
 ## Ocena bdb
 
