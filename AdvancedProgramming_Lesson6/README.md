@@ -13,18 +13,20 @@ Zapoznać się z przykładami dostępnymi w punktach 2 oraz 6.
 
 # Zadania
 
-Wykonać jeden z poniższych projektów z użyciem Avalonia Toolkit:
+Wykonać jeden z poniższych projektów z użyciem Avalonia Toolkit. W renderowaniu i rysowaniu sceny dla gier użyć sposobu pokazanego w przykładzie nr 6. Dla renderowania GUI aplikacji nie będących grami użyć XAML oraz podejścia MVVM.
 
 ## Zadania na ocenę dst:
 
 * Napisać grę w kółko i krzyżyk dla dwóch graczy na jednym komputerze na podstawie przykładu z punktów 2 lub 6.
 * Napisać grę tekstową z prostymi komendami. Gra powinna mieć ekran z obecnym opisem sytuacji oraz wyborami generowanymi za pomocą radio buttonów. Na podstawie wyboru i naciśnięciu przycisku kontynuuj generowany będzie kolejny ekran. Definicje ekranów i przebieg gry powinien być zapisany w pliku json.
 * Napisać prosty kalkulator.
+* Napisać prosty planer kalendarza do dodawania zdarzeń, ich edycji oraz manipulacji nimi. Wpisy kalendarza powinny pochodzić albo z JSON albo z bazy danych.
 
 ## Zadania na ocenę dobry:
 * Napisać grę w snake'a.
 * Napisać grę pong dla dwóch graczy.
 * Napisać grę w statki.
+* Napisać aplikację do rejestrowania zakupów na podstawie paragonów ze sklepu. Dane powinny się zapisywać w pliku JSON albo bazie danych.
 
 ## Zadania na ocenę bardzo dobry:
 * Napisać grę w piłkarzyki.
