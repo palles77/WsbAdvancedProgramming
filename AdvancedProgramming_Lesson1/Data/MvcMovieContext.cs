@@ -9,6 +9,9 @@ namespace AdvancedProgramming_Lesson1.Data
         : base(options)
         {
         }
+
         public DbSet<Movie> Movie { get; set; }
+
+        public DbSet<Student> Students { get; set; }
     }
 }
